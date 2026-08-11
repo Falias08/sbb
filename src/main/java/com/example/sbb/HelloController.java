@@ -13,5 +13,11 @@ public class HelloController {
         return "Hello World";
     }
 
+    @GetMapping("/hi")
+//    @ResponseBody
+    public String abc() {
+        return "hello";
+    }
+
 
 }
